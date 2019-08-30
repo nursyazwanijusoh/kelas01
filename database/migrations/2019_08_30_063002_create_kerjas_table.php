@@ -16,6 +16,9 @@ class CreateKerjasTable extends Migration
         Schema::create('kerjas', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
+            $table->integer('staff_id');
+            $table->string('buat_ape');
+            $table->string('status', 1);
         });
     }
 

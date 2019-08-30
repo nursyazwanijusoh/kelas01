@@ -1,5 +1,10 @@
 # Kelas PHP 101
 
+0. install dependencies
+```
+composer install
+```
+
 1. set configurations kat .env file
 
 2. generate key

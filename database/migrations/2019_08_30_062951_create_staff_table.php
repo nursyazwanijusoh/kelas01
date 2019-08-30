@@ -17,6 +17,7 @@ class CreateStaffTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
+            $table->integer('age');
         });
     }
 
